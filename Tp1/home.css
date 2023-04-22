@@ -1,0 +1,203 @@
+body{
+    background-color:rgb(238, 183, 117);
+}
+
+nav{
+    background-color:chocolate;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+  position: fixed; 
+  align-items: center;
+  display: block;
+  
+  
+}
+a{
+    text-decoration: none;
+}
+ul{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+  flex-direction: row; 
+}
+.divnav{
+    
+    border: solid 2px black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.divnav:link{
+    color: rgb(37, 182, 18);
+    text-decoration: none;
+}
+.divnav:visited{
+    color: rgb(94, 91, 91);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(212, 24, 103);
+    text-decoration: none;
+}
+
+.divnav:active{
+    color: rgb(139, 65, 65);
+    text-decoration: none;
+}
+#imagesid{
+    background-color: chocolate;
+    position: relative;
+    top: 100px;
+    width: 900px;
+    height: 600px;
+    margin-bottom: 120px;
+    margin-left: 180px;
+}
+#butim1{
+
+    position: absolute;
+    top: 20px;
+    left: 40px;
+
+}
+
+    #butim1:hover{
+        opacity: -1;
+        z-index: -1;
+    }
+    #buttimg1{
+        border: 2px black solid;
+        width: 100px;
+        height: auto;
+        text-align: center;
+        font-size: xx-large;
+        background-color: aqua;
+        position: absolute;
+        top: 140px;
+        left: 165px;
+    }
+    #buttimg1:hover{
+        border: 4px black solid;
+        width: 120px;
+        height: auto;
+        z-index: 1;
+    }
+#butim2{
+
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+    #butim2:hover{
+        opacity: -1;
+        z-index: -1;
+    }
+    #buttimg2{
+        border: 2px black solid;
+        width: 100px;
+        height: auto;
+        text-align: center;
+        font-size: xx-large;
+        background-color: aqua;
+        position: absolute;
+        top: 140px;
+        right: 165px;
+    }
+    #buttimg2:hover{
+        border: 4px black solid;
+        width: 120px;
+        height: auto;
+        z-index: 1;
+    }
+#butim3
+{
+
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+    #butim3:hover{
+        opacity: -1;
+        z-index: -1;
+    }
+    #buttimg3{
+        border: 2px black solid;
+        width: 130px;
+        height: auto;
+        text-align: center;
+        font-size: xx-large;
+        background-color: aqua;
+        position: absolute;
+        bottom: 140px;
+        left: 180px;
+    }
+    #buttimg3:hover{
+        border: 4px black solid;
+        width: 140px;
+        height: auto;
+        z-index: 1;
+    }
+#butim4{
+
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+#butim4:hover{
+        opacity: -1;
+        z-index: -1;
+    }
+    #buttimg4{
+        border: 2px black solid;
+        width: 100px;
+        height: auto;
+        text-align: center;
+        font-size: xx-large;
+        background-color: aqua;
+        position: absolute;
+        bottom: 140px;
+        right: 165px;
+    }
+    #buttimg4:hover{
+        border: 4px black solid;
+        width: 120px;
+        height: auto;
+        z-index: 1;
+    }
+#aboutid{
+    padding-top: 30px;
+    border: 1px black solid;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+footer{
+    margin-top: 50px;
+    border: 1px black solid;
+}
+#sub{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 20px;
+    
+}
+#mess{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#top{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row; 
+    right: 0;
+    position: absolute;
+    border: 1px solid black;
+    height: 40px;
+    font-size: x-large;
+}
